@@ -1,0 +1,170 @@
+:root{
+    --bg-body:#07070e;
+    --color-font:#fff;
+    --color-button:#0772EB;
+    --color-card:#1E212C;
+}
+.container{
+    max-width: 830px;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-font);
+    background-color: var(--bg-body);
+}
+
+.logo {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h2{
+    font-weight: bold;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+.logo svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    color: var(--color-button);
+}
+.section-1{
+    display: flex;
+    margin-top: 150px;
+}
+.action-title h2 {
+    font-size: 25px;
+    color: var(--color-font);
+    margin-bottom: 30px;
+    color: var(--color-button);
+}
+.action-title p{
+    font-size: 14px;
+}
+.nossos-services svg {
+    width: 290px;
+    height: auto;
+    color: var(--color-button);
+    margin-right: 30px;
+}
+
+.ex h6{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    font-size: 16px;
+    color: var(--color-button);
+}
+.section-2 {
+    margin-bottom: 50px;
+    color: var(--color-button);
+    justify-content: center;
+}
+.section-2 hr{
+    color: var(--color-button);
+    
+    
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.minicard svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+    
+
+}
+.minicard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-card);
+    border-radius: 10px;
+    color:var(--color-font);
+    width:220px;
+    height: 180px;
+    border-color: var(--color-button);
+}
+
+@media(max-width:520px){
+    .logo {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .nossos-services svg {
+        margin-right: 0px;
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+    .action-title h2 {
+        font-size: 25px;
+        color: var(--color-font);
+        margin-bottom: 30px;
+        color: var(--color-button);
+        text-align: center;
+    }
+    .action-title p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .action-title a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .minicard{
+        margin-top: 40px;
+    }
+    .minicard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-card);
+        border-radius: 10px;
+        color:var(--color-font);
+        width:380px;
+        height: 220px;
+        border-color: var(--color-button);
+    }
+    
+}

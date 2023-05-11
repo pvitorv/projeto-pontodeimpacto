@@ -1,0 +1,32 @@
+
+
+.header {
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .article {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .article h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 767px) {
+    .header,
+    .article {
+      max-width: 100%;
+    }
+}

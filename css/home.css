@@ -1,0 +1,24 @@
+/*Gerais*/
+.row {
+    margin: 0;
+}
+.container {
+    padding: 70px 0;
+}
+p, li {
+    color: rgb(251, 251, 253);
+    font-size: 14px;
+    
+}
+/*fonts*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.carouselExampleSlidesOnly{
+    margin-top: 180px;
+}
+
+/* Barra de navegação*/
